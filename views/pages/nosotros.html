@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nosotros.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="background-p"></div>
+        <div class="background-s1"></div>
+        <div class="background-s2"></div>
+        <header>
+            <nav class="navbar">
+                <a href="./nosotros.html" class="logo"><img src="../img/Arf.png" ></a>
+                <button class="login"><a href="./login.html">Iniciar sesión</a></button>
+            </nav>
+        </header>
+        <div class="fullscreen-container">
+            <div class="background-overlay">
+                <div class="background-image"></div>
+            </div>
+            <div class="content">
+                <h1>Bienvenidos a Arflix<br>Tu nuevo destino para el entretenimiento</h1>
+                <span>Presentado por Jesus Leto y Lopez Alexis</span>
+            </div>
+        </div>  
+            
+    </div>
+
+    <main>
+        <section id="intro">
+            <h1>Introducción a la página</h1>
+            <p>Tu nueva plataforma de streaming donde las historias cobran vida y la emoción está a solo un clic de distancia. Desde grandes éxitos de taquilla hasta gemas independientes, aquí encontrarás un mundo de entretenimiento diseñado para todos los gustos.</p>
+        </section>
+        
+        <section id="services">
+            <div class="card-container">
+                <div class="card" id="movie">
+                    <img src="../img/abouus/img1.png" alt="Películas destacadas">
+                    <h3>Películas destacadas 🎬</h3>
+                    <p>Explora una colección de películas populares y seleccionadas especialmente para ti.</p>
+                    <button class="card-btn">Explorar ahora</button>
+                </div>
+        
+                <div class="card" id="series">
+                    <img src="../img/abouus/img2.png" alt="Series originales">
+                    <h3>Series originales 📺</h3>
+                    <p>Disfruta de series exclusivas que no encontrarás en ninguna otra plataforma.</p>
+                    <button class="card-btn">Ver series</button>
+                </div>
+        
+                <div class="card" id="recomendaciones">
+                    <img src="../img/abouus/img3.png" alt="Recomendaciones personalizadas">
+                    <h3>Recomendaciones personalizadas ⭐</h3>
+                    <p>Obtén recomendaciones basadas en tus gustos y preferencias de visualización.</p>
+                    <button class="card-btn">Descubre ahora</button>
+                </div>
+        
+                <div class="card" id="estrenos">
+                    <img src="../img/abouus/img4.png" alt="Nuevos lanzamientos">
+                    <h3>Nuevos lanzamientos 🚀</h3>
+                    <p>Mantente al día con los estrenos más recientes y las novedades en la plataforma.</p>
+                    <button class="card-btn">Ver lanzamientos</button>
+                </div>
+            </div>
+        </section> 
+        <section id="faq" class="faq-container">
+            <h2>Preguntas sobre nuestra pagina</h2>
+            <div class="faq-item">
+                <button class="faq-question">¿Quiénes somos? <span class="icon">+</span></button>
+                <div class="faq-answer">
+                    <p>Somos una plataforma de streaming dedicada a los amantes del cine y las series. Nuestro objetivo es que disfrutes de una experiencia única con contenido variado, desde los éxitos más taquilleros hasta gemas ocultas del cine independiente.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">¿Cómo puedo registrarme? <span class="icon">+</span></button>
+                <div class="faq-answer">
+                    <p>Puedes registrarte haciendo clic en el botón de registro en la parte superior de la página, luego solo debes completar los campos requeridos con tu información personal.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">¿Qué tipo de contenido ofrecen? <span class="icon">+</span></button>
+                <div class="faq-answer">
+                    <p>Ofrecemos una amplia variedad de contenido, que incluye películas, series y documentales de diferentes géneros. Desde los éxitos más recientes hasta clásicos de todos los tiempos.</p>
+                </div>
+            </div> 
+        </section>
+    </main>
+    <div class="button-container">
+        <div class="background-container"></div>
+        <button class="scroll-button" ><a href="../pages/register.html">Comenzar</a></button>
+    </div>
+    <footer>
+        <div class="footer-container" id="contacto">
+            <a href="#" class="footer-logo"><img src="../img/Arf.png" alt="Logo de Arflix"></a>
+            <div class="footer-lists">
+                <ul class="footer-list">
+                    <h2>Contacto</h2>
+                    <li class="footer-item"><p><i class='bx bx-envelope'></i> arflix@gmail.com</p></li>
+                    <li class="footer-item"><p><i class='bx bx-phone' ></i> +54 11 5500-4321</p></li>
+                </ul>
+                <div class="footer-list social">
+                    <h2>Redes Sociales</h2>
+                    <div class="footer-items">
+                        <a href="https://facebook.com" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="footer-h">©2024 Arflix. Todos los derechos reservados</h2>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Selecciona todas las preguntas
+            const faqQuestions = document.querySelectorAll('.faq-question');
+        
+            // Itera sobre cada pregunta
+            faqQuestions.forEach(function(question) {
+                // Agrega el evento de clic a cada pregunta
+                question.addEventListener('click', function() {
+                    // Encuentra la respuesta asociada (el siguiente hermano)
+                    const answer = question.nextElementSibling;
+                
+                    // Alterna la clase 'active' en la respuesta
+                    answer.classList.toggle('active');
+                
+                    // Encuentra el ícono de la pregunta
+                    const icon = question.querySelector('.icon');
+                
+                    // Cambiar el contenido del ícono dependiendo de la visibilidad de la respuesta
+                    if (answer.classList.contains('active')) {
+                        icon.textContent = '×';  // Cambia a '×'
+                    } else {
+                        icon.textContent = '+';  // Cambia a '+'
+                    }
+                });
+            });
+        });
+        const button = document.querySelector('.scroll-button');  // Botón
+        const introSection = document.querySelector('#intro');  // Sección intro
+        const backgroundContainer = document.querySelector('.background-container');  // Contenedor del fondo
+
+
+        let thresholdValue = 0.2; // Cambia esto para calibrar el momento de ocultar/mostrar el fondo y el botón (0 a 1)
+
+        // Crea el Intersection Observer para detectar cuando la sección #intro es visible
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Si el 50% o más de la sección intro es visible, ocultamos el fondo y el botón
+                    button.classList.add('hide-button');
+                    backgroundContainer.classList.add('hide-background');
+                } else {
+                    // Si la sección no está visible, mostramos el fondo y el botón
+                    button.classList.remove('hide-button');
+                    backgroundContainer.classList.remove('hide-background');
+                }
+            });
+        }, {
+            rootMargin: '0px 0px -50% 0px', 
+            threshold: thresholdValue  
+        });
+
+        // Inicia la observación sobre la sección #intro
+        observer.observe(introSection);
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="banner">
+        <header>
+            <nav class="navbar">
+                <a href="./nosotros.html" class="logo"><img src="../img/Arf.png" alt="logo"></a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="container">
+                <form class="form" action="../../models/sesion.php" method="post">
+                    <h2>Iniciar sesion</h2>
+                    <div class="image"><img src="../images/logo l.png" alt=""></div>
+                    <input type="email" name="email" placeholder="Tu email" required>
+                    <input type="password" name="clave" placeholder="Tu contraseña" required>
+
+                    <div class="btn-iniciar"><button class="btn" type="submit" name="boton" value="iniciar">Iniciar</button></div>
+                    <p>¿No tenes cuenta?<a href="../pages/register.html"> Registrate</a></p>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-container" id="contacto">
+            <a href="#" class="footer-logo"><img src="../img/Arf.png" alt="Logo de Arflix"></a>
+            <div class="footer-lists">
+                <ul class="footer-list">
+                    <h2>Contacto</h2>
+                    <li class="footer-item"><p><i class='bx bx-envelope'></i> arflix@gmail.com</p></li>
+                    <li class="footer-item"><p><i class='bx bx-phone' ></i> +54 11 5500-4321</p></li>
+                </ul>
+                <div class="footer-list social">
+                    <h2>Redes Sociales</h2>
+                    <div class="footer-items">
+                        <a href="https://facebook.com" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="footer-h">©2024 Arflix. Todos los derechos reservados</h2>
+    </footer>
+</body>
+</html>

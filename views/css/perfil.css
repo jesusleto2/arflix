@@ -1,0 +1,59 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+body {
+    font-family: Arial, sans-serif;
+    background: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilos para el contenedor de perfil */
+.perfil-container {
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Estilo para el título */
+.perfil-container h1 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+/* Estilo para la foto de perfil */
+.foto-perfil img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+    border: 3px solid #4CAF50;
+}
+
+.foto-perfil img:hover {
+    transform: scale(1.05);
+}
+
+/* Link de la imagen */
+.foto-perfil a {
+    text-decoration: none;
+}
+
+/* Enlaces */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
